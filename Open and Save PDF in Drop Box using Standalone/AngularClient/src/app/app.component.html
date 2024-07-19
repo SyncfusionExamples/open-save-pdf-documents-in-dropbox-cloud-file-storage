@@ -1,0 +1,6 @@
+<div class="control-section">
+  <div class="content-wrapper">
+      <ejs-pdfviewer #pdfviewer id="pdfViewer" (created)='loadPdfDocument()' [resourceUrl]='resource' [toolbarSettings]="toolbarSettings"
+      (toolbarClick)="toolbarClick($event)"  style="height:640px;display:block"></ejs-pdfviewer>
+  </div>
+</div>
