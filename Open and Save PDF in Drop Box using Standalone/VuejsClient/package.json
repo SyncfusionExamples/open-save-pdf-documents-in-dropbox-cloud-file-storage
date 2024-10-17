@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@syncfusion/ej2-vue-pdfviewer": "^26.2.5",
+    "@syncfusion/ej2-vue-pdfviewer": "*",
     "buffer": "^6.0.3",
     "core-js": "^3.8.3",
     "crypto-browserify": "^3.12.0",
